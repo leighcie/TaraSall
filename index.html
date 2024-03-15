@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Makeup Artist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section-container">
+            <h2 class="section-header">About</h2>
+            <!-- Content for the About section goes here -->
+        </section>
+        
+        <section id="services" class="section-container">
+            <h2 class="section-header">Services</h2>
+            <!-- Content for the Services section goes here -->
+        </section>
+        
+        <section id="portfolio" class="section-container">
+            <h2 class="section-header">Portfolio</h2>
+            <!-- Content for the Portfolio section goes here -->
+        </section>
+
+        <section id="contact" class="section-container">
+            <h2 class="section-header">Contact</h2>
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <form id="contact-form" class="form-horizontal" role="form">
+                    <!-- Name field -->
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                    </div>
+                    <!-- Email field -->
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                    </div>
+                    <!-- Message textarea -->
+                    <div class="form-group">
+                        <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+                    </div>
+                    <!-- Send button -->
+                    <div class="form-group">
+                        <button class="btn btn-primary send-button" id="submit" type="submit">
+                            <div class="alt-send-button">
+                                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+                            </div>
+                        </button>
+                    </div>
+                </form>
+                <!-- Contact Information -->
+                <div class="direct-contact-container">
+                    <!-- Contact details -->
+                    <ul class="contact-list">
+                        <!-- Location -->
+                        <li class="list-item">
+                            <i class="fa fa-map-marker fa-2x"><span class="contact-text place">Wilmington, NC</span></i>
+                        </li>
+                        <!-- Phone -->
+                        <li class="list-item">
+                            <i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-910-233-2338" title="Text">910.233.2338</a></span></i>
+                        </li>
+                        <!-- Email -->
+                        <li class="list-item">
+                            <i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:tbsall@gmail.com" title="eMail">tbsall@gmail.com</a></span></i>
+                        </li>
+                    </ul>
+                    <hr>
+                    <!-- Social Media Icons -->
+                    <ul class="social-media-list">
+                        <!-- Icons go here -->
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Professional Makeup Artist. All rights reserved.</p>
+    </footer>
+</body>
+</html>
